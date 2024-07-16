@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#titulo-superior{
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#paragrafo-superior{
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 15px;
+    padding-bottom: 150px;
+}
+#menusuperior{
+    background-image: url(./imagens/fundomenusuperior.svg);
+    background-size: cover;
+    font-family: "inter";
+    color: #FFFFFF;
+
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+.icone{
+    margin: 30px 0px 30px 100px;
+    padding: 15px;
+
+}
+.informativetext{
+    margin: 50px 50px 50px 75px;
+    display: flex;
+    align-items: center;
+}
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    display: flex;
+    align-items: center;
+}
+#videoinformacional{
+    margin: 80px 100px 80px 400px;
+}
+#titlevideo{
+    color:#247BA0;
+    margin-top: 0px;
+    
+}
+#textvideo{
+    color:#383838;
+    font-size: 20px;
+
+
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 100px;
+
+}
+#titulocarrossel{
+    text-align: center;
+    font-family: "inter";
+    color: #EAECE5;
+    font-size: 29px;
+}
+#div-cards{
+    margin-top: 25px;
+    display: flex;
+    grid-auto-flow: column;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 180px;
+    
+    
+}
+.cards{
+    margin-left: 50px;
+}
+#setaesquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 30ms;
+}
+#formulario{
+    text-align: center;
+}
+#tituloformulario{
+    font-family: "inter";
+    font-size: 29px;
+    color:#383838;
+    margin: 30px;
+}
+input{
+    width: 412px;
+    height: 50px;
+    margin: 20px;
+    background-color:#EAECE5;
+    border: none;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+button{
+    height: 45px;
+    width: 300px;
+    border: none;
+    margin: 20px;
+    border-radius: 8px;
+    margin-bottom: 70px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #247BA0;
+    color: #FFFFFF;
+    
+}
+button:hover{
+    box-shadow: 0px 15px 20px #2a273f;
+    transform: translateY(-7px);
+    transition-duration: 400ms;
+}
